@@ -20,7 +20,7 @@ This jQuery plugin adds an additional text field to any web form, allowing a use
 
 2) **[Sign up](https://openpostcodes.com/signup)** to create an API key
 
-3) **Postcode Search Field** create a div tag and name it `postcode_lookup` for example, then use it to call `.lookupPostcodeForm()`. Add your config to the call, such as your API key, and the CSS selectors with where to send the output data.
+3) **Implementation** Create a div tag and name it `postcode_lookup` for example, then use it to call `.lookupPostcodeForm()`. Add your config to the call, such as your API key, and the CSS selectors with where to send the output data.
 
 ```html
 <div id="postcode_lookup"></div>
