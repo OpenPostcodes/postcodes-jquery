@@ -6,7 +6,7 @@ We charge **1p** per public lookup; take a look at our [pricing](https://openpos
 
 ## How it works
 
-This jQuery plugin add an additional text field to any web form, allowing a user to input a UK Postcode. The plugin uses the Open Postcodes API to lookup the provided Postcode and return a list of premisses, associated with the Postcode, as a dropdown. Once a premise is selected, from the dropdown, the plugin with fill the appropriate address form fields.
+This jQuery plugin adds an additional text field to any web form, allowing a user to input any UK Postcode. The plugin uses the Open Postcodes API to lookup the provided Postcode and return a list of premisses, associated with the Postcode, as a dropdown. Once a premise is selected, from the dropdown, the plugin with fill the appropriate address form fields.
 
 ![Open Postcodes Plugin Demo](https://raw.github.com/OpenPostcodes/postcodes-jquery/master/example/demo.png)
 
