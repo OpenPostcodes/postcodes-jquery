@@ -11,7 +11,7 @@ This jQuery plugin adds an additional text field to any web form, allowing a use
 ![Open Postcodes Plugin Demo](https://raw.github.com/OpenPostcodes/postcodes-jquery/master/example/demo.png)
 
 ## Getting Started
-1) **[Download plugin](https://raw.github.com/OpenPostcodes/postcodes-jquery/master/dist/postcode.min.js)** and the script to your page, as shown below
+1) **[Download plugin](https://raw.githubusercontent.com/OpenPostcodes/postcodes-jquery/master/dist/jquery.postcode.min.js)** and the script to your page, as shown below
 
 ```html
 <script src="jquery.js"></script>
