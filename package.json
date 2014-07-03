@@ -1,0 +1,23 @@
+{
+  "name": "jquery-postcode",
+  "version": "0.1.0",
+  "description": "Postcode lookup API for UK addresses from Open Postcodes, more at https://openpostcodes.com",
+  "main": "dist/jquery.postcode.min.js",
+  "homepage": "https://openpostcodes.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenPostcodes/postcodes-jquery.git"
+  },
+  "dependencies": {},
+  "keywords": [
+    "UK",
+    "Address",
+    "Postcode",
+    "API",
+	"jQuery",
+	"Plugin"
+  ],
+  "author": "Open Postcodes",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

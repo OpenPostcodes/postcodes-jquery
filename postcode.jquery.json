@@ -1,0 +1,33 @@
+{
+  "name": "postcode",
+  "version": "1.0.0",
+  "title": "Open Postcodes jQuery Plugin",
+  "author": {
+    "name": "Open Postcodes",
+    "email": "support@openpostcodes.com",
+	"url": "https://openpostcodes.com"
+  },
+  "licenses":[
+	{
+	  "type": "MIT",
+	  "url": "http://opensource.org/licenses/MIT"
+	}
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "description": "Add United Kingdom Postcode lookups to your website, find any premise address from a Postcode",
+  "keywords": [
+     "postcodes",
+     "lookup",
+     "address",
+     "postcode"
+  ],
+  "homepage": "https://github.com/OpenPostcodes/postcodes-jquery",
+  "docs": "https://openpostcodes.com/documentation#examples-jquery",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OpenPostcodes/postcodes-jquery.git"
+  },
+  "bugs": "https://github.com/OpenPostcodes/postcodes-jquery/issues"
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Open Postcodes Lookup Example</title>
+	
+	<LINK href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<script src="javascript/jquery-1.9.1.min.js"></script>
+	<script src="../dist/jquery.postcode.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+<div class="col-md-12">
+<h1 class="col-sm-offset-2">Open Postcodes Lookup Example</h1>
+<div class="alert alert-warning">This example uses the demo API key "<i>openpostcodes_demo</i>" therefore you can <strong>only lookup our testing Postcodes listed <a href="https://openpostcodes.com/documentation#testing">here</a></strong>. alternatively sign up for an API key at <a href="https://openpostcodes.com/">Open Postcodes</a> and get full access.</div>
+<hr>
+					  			<style>
+#postcode_lookup select
+{
+margin-top: 20px;
+}
+
+#postcode_lookup #opc_input {
+display: inline;
+width: 50%;
+margin-right:5%;
+}
+
+#postcode_lookup #opc_btn {
+width:45%;
+}
+</style>
+
+<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <div class="col-sm-6 col-sm-offset-3">
+<!-- Postcode field -->
+<div id="postcode_lookup"></div>
+</div>
+</div>
+    <hr>
+    
+<div class="form-group">
+    <label for="line1" class="col-sm-3 control-label">First Address Line</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" id="line1">
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="line1" class="col-sm-3 control-label">Second Address Line</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" id="line2">
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="line1" class="col-sm-3 control-label">Third Address Line</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" id="line3">
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="line1" class="col-sm-3 control-label">Town</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" id="town">
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="line1" class="col-sm-3 control-label">Postcode</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" id="postcode">
+    </div>
+</div>
+</form>
+
+<script>
+$('#postcode_lookup').lookupPostcodeForm({
+    api_key: 'openpostcodes_demo',
+    output_fields:{
+        line_1: '#line1',
+        line_2: '#line2',
+        line_3: '#line3',
+        post_town: '#town',
+        postcode: '#postcode'
+    },
+    input_class:'form-control',
+    button_class:'btn btn-primary',
+    dropdown_class:'form-control',
+    error_message_class:'help-block'
+});
+</script>
+</div></div></div>
+</body>
+</html>
